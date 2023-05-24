@@ -1,1 +1,31 @@
-
+header{
+    height: 145px;
+    width: 100%;
+    background-color: #0F8B8D;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo img{
+    width: 335px;
+    height: 67px;
+    margin-top: 39px;
+    margin-left: 138px;
+}
+.header-list{
+    display: flex;
+    height: 67px;
+    margin-top: 39px;
+    margin-right: 138px;
+}
+.header-list a{
+    color: white;
+    font-size: 30px;
+    line-height: 67px;
+    margin-right: 50px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}

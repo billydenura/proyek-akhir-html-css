@@ -1,2 +1,11 @@
 @import "header.css";
 @import "footer.css";
+*{
+    margin: 0;
+}
+.container{
+    font-family: Lato;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}

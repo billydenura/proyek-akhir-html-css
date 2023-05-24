@@ -1,1 +1,43 @@
+footer {
+    background-color: #143642;
+    height: 460px;
+}
+footer .container{
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.logo-footer{
+    width: 335px;
+    height: 67px;
+}
+.icon{
+    filter: invert(1);
+    height: 32px;
+    margin-top: 31px;
+    margin-right: 27px;
+}
+.mail{
+    width: 40px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 138px;
+}
+.footer{
+    margin-right: 100px;
+    font-size: 24px;
+    margin-top: 80px;
+}
+.footer li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.footer ul{
+    padding-inline-start: 0;
+}
 
+.footer span{
+    color:#EC9A29;
+}

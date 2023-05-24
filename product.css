@@ -1,3 +1,60 @@
+@import url(header.css);
+@import url(footer.css);
+*{
+    margin: 0;
+}
+.container{
+    font-family: Lato;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+section{
+    max-width: 888px;
+    width: 100%;
+    margin: 100px auto;
+}
+section h2{
+    color: #0F8B8D;
+    font-size: 48px;
 
-@import "heaeder.css" 
-@import "footer.css"
+}
+section p{
+    font-size: 24px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 120px;
+}
+.produk{
+    background-image: url("Coffee background.png");
+    background-size: cover;
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.gambar-produk{
+    width: 186px;
+}
+.nama{
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    color: white;
+}
+.harga{
+    color: white;
+    font-size: 18px;
+}

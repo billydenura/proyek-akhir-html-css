@@ -1,2 +1,67 @@
-@import "heaeder.css" 
-@import "footer.css"
+@import url(header.css);
+@import url(footer.css);
+*{
+    margin: 0;
+}
+.container{
+    font-family: Lato;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+section .container{
+    max-width: 926px;
+    width: 100%;
+    margin: 100px auto;
+}
+section h2{
+    font-size: 48px;
+    color: #0F8B8D;
+    margin-bottom: 50px;
+
+}
+.message-box{
+    width: 926px;
+    height: 784px;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    /* padding: 50px 0; */
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hubungi{
+    width: 493px;
+    height: 71px;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+}
+.hubungi-message{
+    width: 493px;
+    height: 200px;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+}
+.box p{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 71px;
+}
+button{
+    width: 335px;
+    height: 70px;
+    background-color: #A8201A;
+    border-radius: 55px;
+    color: white;
+    border: none;
+}
