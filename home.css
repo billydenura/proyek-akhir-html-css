@@ -84,7 +84,7 @@ header .color{
     margin-top: 10px;
     font-weight: 400;
     text-align: center;
-    width: 487px;
+    /* width: 487px; */
 }
 .contents , .contact-us , .find-us{
     /* margin: 0 256px; */
@@ -108,10 +108,12 @@ header .color{
     row-gap: 45px;
 }
 .who-are-we img{
-    /* width: 690px; */
+    width: 325px;
     height: 460px;
-    clip-path: inset(0 25% 0 25% round 25px);
-    position: relative;
+    /* clip-path: inset(0 25% 0 25% round 25px); */
+    border-radius: 20px;
+    object-fit: cover;
+    filter: blur(0);
     
 }
 .text2{
@@ -121,9 +123,14 @@ header .color{
     row-gap: 45px;
 }
 .product-showcase img{
-    /* height: 335px; */
+    /* height: 335px;
     width: 335px;
-    clip-path: inset(20% 0 20% 0 round 20px);
+    clip-path: inset(20% 0 20% 0 round 20px); */
+    width: 335px;
+    height: 335px;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: blur(0);
 }
 .text3{
     width: 398px;
@@ -132,8 +139,13 @@ header .color{
     row-gap: 45px;
 }
 .hang-out img{
+    /* height: 453px;
+    clip-path: inset(0 25% 0 25% round 25px); */
+    width: 453px;
     height: 453px;
-    clip-path: inset(0 25% 0 25% round 25px);
+    border-radius: 20px;
+    object-fit: cover;
+    filter: blur(0);
 
 }
 .find-us .container{

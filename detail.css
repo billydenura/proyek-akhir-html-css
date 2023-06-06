@@ -1,0 +1,74 @@
+@import url(header.css);
+@import url(footer.css);
+*{
+    margin: 0;
+}
+.container{
+    font-family: Lato;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    width: 335px;
+    height: 70px;
+    background-color: #A8201A;
+    border-radius: 55px;
+    color: white;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right h2{
+    font-size: 48px;
+    color: #0F8B8D;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.right p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #143642;
+    margin-bottom: 60px;
+}
+.price{
+    font-size: 60px;
+    font-weight: 800;
+    color: #0F8B8D;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    max-width: 926px;
+    width: 100%;
+    margin: 40px auto 100px auto;
+}
+.description h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0F8B8D;
+    width: 381px;
+    border-bottom: 5px solid #EC9A29;
+}
+.description p{
+    width: 920px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #143642;
+}
+.btn img{
+    filter: invert(1);
+    transform: rotate(180deg);
+}

@@ -9,3 +9,62 @@
     width: 100%;
     margin: 0 auto;
 }
+section{
+    max-width: 1170px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+/* section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+.kiri{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.kiri h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0F8B8D;
+}
+.kiri h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.alamat{
+    width: 474px;
+    height: 196px;
+    border: 1px solid #D2D2D2;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 45px;
+    row-gap: 20px;
+    box-sizing: border-box;
+}
+.nama-tempat{
+    font-size: 30px;
+    font-weight: 700;
+    color: #143642;
+}
+.jalan{
+    font-weight: 400;
+    font-size: 20px;
+    color: #143642;
+}
+.kanan img{
+    width: 580px;
+    /* height: 580px; */
+    object-fit: cover;
+    border-radius: 50px;
+}

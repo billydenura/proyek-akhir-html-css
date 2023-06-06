@@ -29,3 +29,6 @@ header .container{
 a{
     text-decoration: none;
 }
+.aktif{
+    border-bottom: 5px solid #EC9A29;
+}

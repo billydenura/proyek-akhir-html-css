@@ -9,17 +9,52 @@
     width: 100%;
     margin: 0 auto;
 }
-section .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 40px;
-}
 section{
-    max-width: 888px;
+    max-width: 1170px;
     width: 100%;
     margin: 100px auto;
 }
+section .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+}
+.side-bar{
+    height: 640px;
+    width: 280px;
+    border:1px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.side-bar h3{
+    font-size: 24px;
+    color: #0F8B8D;
+
+}
+.side-bar-menu{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    /* align-items: center; */
+    row-gap: 20px;
+    padding-left: 20px;
+    border-left: 5px solid #EC9A29;
+    font-size: 20px;
+}
+.produk-menu{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    row-gap: 40px;
+}
+
 section h2{
     color: #0F8B8D;
     font-size: 48px;
@@ -29,8 +64,8 @@ section p{
     font-size: 24px;
 }
 .products{
+    width: 900px;
     display: flex;
-    flex-wrap: wrap;
     flex-wrap: wrap;
     row-gap: 40px;
     column-gap: 120px;
@@ -43,7 +78,6 @@ section p{
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
-
 }
 .gambar-produk{
     width: 186px;
@@ -58,3 +92,31 @@ section p{
     color: white;
     font-size: 18px;
 }
+
+.produk:hover img{
+    transform: translateY(-70px) scale(1.2);
+    transition: all 0.3s ease;
+}
+.produk:hover .nama-produk{
+    transform: translate3d(0, 125px, 0) scale(1.2);
+    transition: all 0.3s ease;
+
+}
+.produk:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* @keyframes kebawah{
+    0%{transform: translateY(0) scale(1);}
+    100%{transform: translateY(139px) scale(1.5);}
+}
+@keyframes keatas{
+    from{transform: translateY(0) scale(1);}
+    to{transform: translateY(-60px) scale(1.5);}
+}
+@keyframes zoom-out{
+    form{transform: scale(1);}
+    to{transform: scale(1.1);}
+} */
